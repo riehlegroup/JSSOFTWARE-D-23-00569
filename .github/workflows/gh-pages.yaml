@@ -8,6 +8,12 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  URL: https://riehlegroup.github.io
+  BASE_URL: /JSSOFTWARE-D-23-00569/
+  GH_ORG: riehlegroup
+  GH_PROJ: JSSOFTWARE-D-23-00569
+
 # Avoid concurrent deployments
 concurrency:
   group: "pages"
